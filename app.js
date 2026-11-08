@@ -1,4 +1,9 @@
 console.log('Cozy Cafe JavaScript is connected!');
 
-const mainTitleEl= document.getAnimations('#main-title')
-mainTitleEl.textContext='Welcome to the Cozy Cafe'
+//part1
+
+const mainTitleEl=document.querySelector("#main-title")
+mainTitleEl.textContent="Welcome to the Cozy Cafe."
+
+
+
